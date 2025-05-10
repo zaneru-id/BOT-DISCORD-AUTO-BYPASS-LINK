@@ -9,10 +9,9 @@ import psutil
 import platform
 import datetime
 
-
-TOKEN = 'REPLACE_WITH_YOUR_TOKEN'
+TOKEN = 'YOUR BOT TOKEN'
 AUTOBYPASS_DATABASE_FILE = 'autobypass-database.json'
-AUTHORIZED_USER_IDS = [1044986769331998780, 1078741697913159750]
+AUTHORIZED_USER_IDS = "USER ID FOR PERMISSION COMMAND"
 
 intents = nextcord.Intents.default()
 intents.message_content = True
@@ -47,7 +46,7 @@ async def call_all_api(link):
         try:
             create_task_url = 'https://api.voltar.lol/bypass/createTask'
             payload = {'url': link}
-            headers = {'x-api-key': 'Buy Voltar API Key'}
+            headers = {'x-api-key': 'Voltar API KEY'}
 
             async with session.post(create_task_url, json=payload, headers=headers) as create_response:
                 if create_response.status != 200:
