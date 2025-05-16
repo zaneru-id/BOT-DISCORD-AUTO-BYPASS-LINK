@@ -1,3 +1,3 @@
-DISCORD BOT AUTO BYPASS ZANERU OFFICIAL
+ZANERU OFFICIAL BOT - OPEN SOURCE
 
-Buy API Key in Discord : https://discord.gg/X7MmBRv7em
+Buy Voltar API Key in Discord : https://discord.gg/X7MmBRv7em
