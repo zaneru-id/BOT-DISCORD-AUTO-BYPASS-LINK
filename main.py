@@ -9,7 +9,6 @@ import psutil
 import platform
 import datetime
 
-
 TOKEN = 'BOT_TOKEN'
 AUTOBYPASS_DATABASE_FILE = 'autobypass-database.json'
 AUTHORIZED_USER_IDS = [COMMAND PERMISSION USER ID]
